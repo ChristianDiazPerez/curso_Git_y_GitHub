@@ -1,5 +1,5 @@
-hola soy christian y tengo 21 años.
+Hola soy christian y tengo 21 años.
+Soy originario de Toledo. Ciudad en la que vivo.
 
-Trabajo en puy du fou. Además aprendo git. 
-Porque es lo que me sacará del pozo. 
-Estoy seguro que lo voy a conseguir.
+Soy técnico de mantenimiento en Puy du Fou España.
+Además aprendo git de forma autodidacta.
