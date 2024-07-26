@@ -472,9 +472,43 @@ Finalmente realizo el commit de los cambios y compruebo el estado de la rama mas
 
 # GitHub
 
-GitHub a la rama master, la llama main.
-
 Empezaremos por crear un repositorio.
+
+GitHub a la rama master, la llama main.
+Por lo que para evitar problemas, voy a modificar el nombre de la rama main a master en GitHub.
+![](cambio_nombre.PNG)
+
+Una vez creado, vamos a clonarlo.
+
+Copiamos esta URL utilizando HTTPS
+![](clone_github.PNG)
+
+Nos aseguramos de estar en la rama master.
+
+Vamos a añadir a git un **origen remoto** de nuestros archivos.
+
+![](git_add_remote.PNG)
+
+Comprobamos el estado.  
+![](git_remote.PNG)
+
+-v (sea verbal)
+
+nos indica: 
+
+origin para hacer fetch, traer cosas
+origin para hacer push, enviar cosas
+
+## **push**
+
+> **git push origin master**
+>
+>para enviar al origen, la rama master.
+
+![](push.PNG)
+
+El master local se envió al master de GitHub creando una nueva rama.
+
 
 
 
