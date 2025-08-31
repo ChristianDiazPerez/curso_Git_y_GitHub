@@ -469,8 +469,26 @@ Finalmente realizo el commit de los cambios y compruebo el estado de la rama mas
 
 ![](final_conflicto.PNG)
 
+# Clonar un repositorio
 
-# GitHub
+Únicamente si disponemos de un repositorio remoto y queremos traerlo a nuesto PC.
+
+
+
+> **git clone "URL del repositorio"**
+>
+>Clona un repositorio remoto en nusto PC.
+
+![](gitclone1.png)
+
+Antes de nada, debemos ubicarnos en el directorio donde queremos clonar el repositorio.
+
+![](gitclone2.png)
+
+
+# Subir un repositorio a GitHub
+
+Esta opción es utilizada cuando ya disponemos de un repositorio únicamente existente en nuestro PC. Y lo queremos subir a GitHub.
 
 Empezaremos por crear un repositorio.
 
