@@ -479,11 +479,11 @@ Finalmente realizo el commit de los cambios y compruebo el estado de la rama mas
 >
 >Clona un repositorio remoto en nusto PC.
 
-![](gitclone1.png)
+![](gitclone1.PNG)
 
 Antes de nada, debemos ubicarnos en el directorio donde queremos clonar el repositorio.
 
-![](gitclone2.png)
+![](gitclone2.PNG)
 
 
 # Subir un repositorio a GitHub
