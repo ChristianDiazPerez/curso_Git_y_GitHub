@@ -485,6 +485,27 @@ Antes de nada, debemos ubicarnos en el directorio donde queremos clonar el repos
 
 ![](gitclone2.PNG)
 
+Siempre que clonamos un repositorio. Únicamente se nos clona la rama main.
+
+![](gitclone3.PNG)
+
+> **git branch -r**
+> 
+>Para ver todas las ramas del directorio remoto.
+
+![](gitclone4.PNG)
+
+## Descargar todas las ramas remotas 
+
+Copiar el siguiente comando para traerte todas las ramas remotas como ramas locales de golpe
+
+> **git fetch origin "+refs/heads/*:refs/remotes/origin/*" && \
+for branch in $(git branch -r | grep -v '\->' | grep origin/ | sed 's|origin/||'); do \
+    git branch --track "$branch" "origin/$branch" 2>/dev/null || true; \
+done**
+
+![](gitclone5.PNG)
+
 
 # Subir un repositorio a GitHub
 
